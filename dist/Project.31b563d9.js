@@ -728,11 +728,11 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client");
 var _app = require("./components/App");
 var _appDefault = parcelHelpers.interopDefault(_app);
-// 2. 获取 DOM 容器
+//获取 DOM 容器
 const container = document.getElementById('app');
-// 3. 创建根
+//创建根
 const root = (0, _client.createRoot)(container);
-// 4. 渲染应用
+//渲染应用
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appDefault.default), {}, void 0, false, {
     fileName: "src/index.js",
     lineNumber: 12,
